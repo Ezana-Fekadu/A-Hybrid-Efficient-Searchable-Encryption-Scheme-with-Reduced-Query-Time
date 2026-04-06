@@ -1,0 +1,1 @@
+# A-Hybrid-Efficient-Searchable-Encryption-Scheme-with-Reduced-Query-Time
