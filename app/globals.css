@@ -1,28 +1,18 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: "Inter", "Inter Fallback", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", "JetBrains Mono Fallback", monospace;
-
-  --color-background: oklch(0.17 0.02 250);
-  --color-foreground: oklch(0.92 0.01 250);
-  --color-card: oklch(0.20 0.02 250);
-  --color-card-foreground: oklch(0.92 0.01 250);
-  --color-primary: oklch(0.75 0.15 185);
-  --color-primary-foreground: oklch(0.17 0.02 250);
-  --color-secondary: oklch(0.25 0.02 250);
-  --color-secondary-foreground: oklch(0.92 0.01 250);
-  --color-muted: oklch(0.28 0.02 250);
-  --color-muted-foreground: oklch(0.60 0.01 250);
-  --color-accent: oklch(0.65 0.12 185);
-  --color-accent-foreground: oklch(0.17 0.02 250);
-  --color-border: oklch(0.30 0.02 250);
-  --color-ring: oklch(0.75 0.15 185);
-
-  --radius-sm: 0.25rem;
-  --radius-md: 0.5rem;
-  --radius-lg: 0.75rem;
-  --radius-xl: 1rem;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "Fira Code", monospace;
+  
+  --color-background: #09090b;
+  --color-foreground: #fafafa;
+  --color-card: #18181b;
+  --color-card-foreground: #fafafa;
+  --color-primary: #14b8a6;
+  --color-primary-foreground: #09090b;
+  --color-muted: #27272a;
+  --color-muted-foreground: #a1a1aa;
+  --color-border: #3f3f46;
 }
 
 * {
