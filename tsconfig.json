@@ -8,6 +8,7 @@
     "allowJs": true,
     "skipLibCheck": true,
     "allowArbitraryExtensions": true,
+    "verbatimModuleSyntax": false,
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
